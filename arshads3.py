@@ -8,4 +8,6 @@ def analyse_sentence(sentence):
 sentence = "python is great and python is fun and useful"
 total, unique, common = analyse_sentence(sentence)
 
-print("total words:", total)
+print("Total words:", total)
+print("Unique words:", unique)
+print("Most frequent word:", common[0], "appears", common[1], "times")
